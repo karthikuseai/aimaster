@@ -1,0 +1,158 @@
+[
+  {
+    "id": "gpt4free",
+    "name": "GPT-4 FreeMirror",
+    "short": "Community mirror of GPT-4-like models (free).",
+    "tags": [
+      "chat",
+      "llm"
+    ],
+    "pricing": "Free",
+    "category": "Chatbots",
+    "website": "https://example.com/gpt4free",
+    "alternatives": [
+      "gpt4o",
+      "claude-lite"
+    ]
+  },
+  {
+    "id": "gpt4o",
+    "name": "GPT-4o (Paid)",
+    "short": "Official GPT-4o by OpenAI with advanced features.",
+    "tags": [
+      "chat",
+      "llm"
+    ],
+    "pricing": "Paid",
+    "category": "Chatbots",
+    "website": "https://openai.com/gpt-4o",
+    "alternatives": [
+      "gpt4free",
+      "claude-pro"
+    ]
+  },
+  {
+    "id": "stableimg",
+    "name": "StableImage",
+    "short": "Image generation model offering free tiers.",
+    "tags": [
+      "image",
+      "generation"
+    ],
+    "pricing": "Freemium",
+    "category": "Image",
+    "website": "https://stable.example",
+    "alternatives": [
+      "dalle",
+      "midjourney"
+    ]
+  },
+  {
+    "id": "dalle",
+    "name": "DALL\u00b7E",
+    "short": "Image generation from OpenAI.",
+    "tags": [
+      "image",
+      "generation"
+    ],
+    "pricing": "Paid",
+    "category": "Image",
+    "website": "https://openai.com/dall-e",
+    "alternatives": [
+      "stableimg",
+      "midjourney"
+    ]
+  },
+  {
+    "id": "toolify",
+    "name": "Toolify (Directory)",
+    "short": "Directory of AI tools and resources.",
+    "tags": [
+      "directory"
+    ],
+    "pricing": "Free",
+    "category": "Directories",
+    "website": "https://toolify.example",
+    "alternatives": [
+      "aitoolsdb"
+    ]
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "short": "AI copywriting tool, paid plans with trial.",
+    "tags": [
+      "writing",
+      "content"
+    ],
+    "pricing": "Paid",
+    "category": "Writing",
+    "website": "https://writesonic.com",
+    "alternatives": [
+      "rytr",
+      "copyai"
+    ]
+  },
+  {
+    "id": "rytr",
+    "name": "Rytr",
+    "short": "Budget-friendly AI writer with free tier.",
+    "tags": [
+      "writing",
+      "content"
+    ],
+    "pricing": "Freemium",
+    "category": "Writing",
+    "website": "https://rytr.me",
+    "alternatives": [
+      "writesonic",
+      "copyai"
+    ]
+  },
+  {
+    "id": "claude-lite",
+    "name": "Claude Lite",
+    "short": "Anthropic's lightweight chat model (free tier).",
+    "tags": [
+      "chat",
+      "llm"
+    ],
+    "pricing": "Free",
+    "category": "Chatbots",
+    "website": "https://anthropic.com/claude-lite",
+    "alternatives": [
+      "gpt4free",
+      "claude-pro"
+    ]
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "short": "Art-focused image generation (paid).",
+    "tags": [
+      "image",
+      "art"
+    ],
+    "pricing": "Paid",
+    "category": "Image",
+    "website": "https://midjourney.com",
+    "alternatives": [
+      "stableimg",
+      "dalle"
+    ]
+  },
+  {
+    "id": "aitoolsdb",
+    "name": "AI Tools DB",
+    "short": "Community curated AI tools database.",
+    "tags": [
+      "directory"
+    ],
+    "pricing": "Free",
+    "category": "Directories",
+    "website": "https://aitoolsdb.example",
+    "alternatives": [
+      "toolify"
+    ]
+  }
+]

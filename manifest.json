@@ -1,0 +1,6 @@
+{
+  "name": "AI Tools Hub",
+  "short_name": "AITools",
+  "start_url": "/",
+  "display": "standalone"
+}

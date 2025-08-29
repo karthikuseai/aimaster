@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?><rss version='2.0'><channel><title>AI Tools Hub</title><link>https://aitoolshub.com</link><description>Updates</description><item><title>GPT-4 FreeMirror</title><link>https://example.com/gpt4free</link><description>Community mirror of GPT-4-like models (free).</description></item>
+<item><title>GPT-4o (Paid)</title><link>https://openai.com/gpt-4o</link><description>Official GPT-4o by OpenAI with advanced features.</description></item>
+<item><title>StableImage</title><link>https://stable.example</link><description>Image generation model offering free tiers.</description></item>
+<item><title>DALL·E</title><link>https://openai.com/dall-e</link><description>Image generation from OpenAI.</description></item>
+<item><title>Toolify (Directory)</title><link>https://toolify.example</link><description>Directory of AI tools and resources.</description></item>
+<item><title>Writesonic</title><link>https://writesonic.com</link><description>AI copywriting tool, paid plans with trial.</description></item>
+<item><title>Rytr</title><link>https://rytr.me</link><description>Budget-friendly AI writer with free tier.</description></item>
+<item><title>Claude Lite</title><link>https://anthropic.com/claude-lite</link><description>Anthropic's lightweight chat model (free tier).</description></item>
+<item><title>Midjourney</title><link>https://midjourney.com</link><description>Art-focused image generation (paid).</description></item>
+<item><title>AI Tools DB</title><link>https://aitoolsdb.example</link><description>Community curated AI tools database.</description></item></channel></rss>

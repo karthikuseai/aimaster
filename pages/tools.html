@@ -1,0 +1,62 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>AI Tools Hub — Tools</title>
+  <meta name="description" content="AI Tools Hub — curated directory of free and paid AI tools with alternatives and filters.">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+<meta name="description" content="AI Tools Hub — curated directory of free and paid AI tools with filters and search">
+<meta name="keywords" content="AI tools, free AI tools, paid AI tools, LLM, image generation, chatbots, writing AI">
+<meta name="author" content="AI Tools Hub">
+<link rel="canonical" href="https://aitoolshub.com/">
+<meta property="og:title" content="AI Tools Hub">
+<meta property="og:description" content="Discover free and paid AI tools with instant search and filters.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aitoolshub.com/">
+<meta property="og:image" content="https://aitoolshub.com/assets/images/logo.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AI Tools Hub",
+  "url": "https://aitoolshub.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://aitoolshub.com/pages/tools.html?search={search_term}",
+    "query-input": "required name=search_term"
+  }
+}
+</script>
+
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand"><div class="logo">AI</div><div><div style="font-weight:800">AI Tools Hub</div><div style="color:#94a3b8;font-size:13px">Browse tools — filters and search</div></div></div>
+      <nav class="nav topbar">
+        <a class="toggle" href="/pages/tools.html">Tools</a>
+        <a class="toggle" href="/pages/paid-alternatives.html">Paid Alternatives</a>
+        <a class="toggle" href="/pages/about.html">About</a>
+      </nav>
+    </header>
+
+    <div class="search-row">
+      <input id="search" class="input" placeholder="Search AI tools, e.g. 'image generation', 'chat'">
+      <select id="pricing" class="select"><option>All</option><option>Free</option><option>Freemium</option><option>Paid</option></select>
+      <select id="category" class="select"><option>All</option><option>Chatbots</option><option>Image</option><option>Writing</option><option>Directories</option></select>
+      <div class="controls"><button id="reset" class="toggle">Reset</button><button id="paid-alt" class="toggle">Paid Alternatives</button></div>
+    </div>
+
+    <section id="list" class="grid" aria-live="polite">
+      <!-- cards injected here -->
+    </section>
+
+    <div class="footer">© AI Tools Hub — Updated periodically. RSS: <a href="/rss.xml">rss</a> · Sitemap: <a href="/sitemap.xml">sitemap</a></div>
+  </div>
+
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>

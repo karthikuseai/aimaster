@@ -1,0 +1,26 @@
+
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Paid Alternatives — AI Tools Hub</title><link rel="stylesheet" href="/assets/css/styles.css">
+<meta name="description" content="AI Tools Hub — curated directory of free and paid AI tools with filters and search">
+<meta name="keywords" content="AI tools, free AI tools, paid AI tools, LLM, image generation, chatbots, writing AI">
+<meta name="author" content="AI Tools Hub">
+<link rel="canonical" href="https://aitoolshub.com/">
+<meta property="og:title" content="AI Tools Hub">
+<meta property="og:description" content="Discover free and paid AI tools with instant search and filters.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aitoolshub.com/">
+<meta property="og:image" content="https://aitoolshub.com/assets/images/logo.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AI Tools Hub",
+  "url": "https://aitoolshub.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://aitoolshub.com/pages/tools.html?search={search_term}",
+    "query-input": "required name=search_term"
+  }
+}
+</script>
+
+</head><body><div class="container"><header class="header"><div class="brand"><div class="logo">AI</div><div><div style="font-weight:800">AI Tools Hub</div><div style="color:#94a3b8;font-size:13px">Paid Alternatives</div></div></div><nav class="nav topbar"><a class="toggle" href="/index.html">Home</a><a class="toggle" href="/pages/tools.html">Tools</a><a class="toggle" href="/pages/about.html">About</a></nav></header><main><h2>Paid Tools & Alternatives</h2><p>Find paid tools and suggested free alternatives where available.</p><div id="paid-list" class="grid"></div></main><footer class="footer">© AI Tools Hub</footer></div><script>fetch('/data/tools.json').then(r=>r.json()).then(T=>{ const paid = T.filter(t=>t.pricing==='Paid' || t.pricing==='Freemium'); document.getElementById('paid-list').innerHTML = paid.map(t=>`<a class="card" href="/pages/tool.html?id=${t.id}"><h3>${t.name}</h3><div class="meta">${t.short}</div><div class="meta">Alternatives: ${t.alternatives.join(', ')}</div></a>`).join(''); });</script></body></html>
